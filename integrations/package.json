@@ -1,0 +1,14 @@
+{
+  "name": "flight-proxy",
+  "version": "1.0.0",
+  "description": "Flight data proxy using AeroDataBox API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "fastify": "^4.21.0",
+    "@fastify/cors": "^8.2.0"
+  }
+}
