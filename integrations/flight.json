@@ -1,0 +1,28 @@
+[
+  {
+    "id": 835,
+    "name": "Check Flight Status",
+    "integration_type": "custom_api",
+    "description": "Checks the Realtime Flight Status",
+    "url": "https://proxyair.onrender.com/get",
+    "method": "GET",
+    "headers": [],
+    "query_params": [
+      {
+        "key": "flightNumber",
+        "type": "string",
+        "required": true,
+        "description": "Add description",
+        "isLLMGenerated": true
+      },
+      {
+        "key": "flightDate",
+        "type": "string",
+        "required": true,
+        "description": "Add description",
+        "isLLMGenerated": true
+      }
+    ],
+    "body_params": []
+  }
+]
