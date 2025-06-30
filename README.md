@@ -53,8 +53,6 @@ Run the app:
 python agent.py
 ```
 
----
-
 ## How It Works
 
 1. **User gets a call through Bulk Call**: "With Required User Details"
@@ -63,14 +61,10 @@ python agent.py
 4. **Custom hotel/reminder APIs** trigger relevant updates.
 5. **FLAIR replies** with a personalized, spoken summary.
 
----
-
 ## API Integration
 
 * **OmniDimension API**: Voice Agent Pipeline
 * **Custom FlightS API**: To Make the AeroDataBox API Compatible
 * **Custom Hotels API**: Check Nearest Available Hotels for Checkin
-
----
 
 Made by Team **LetsDoIt**
